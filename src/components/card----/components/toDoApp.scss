@@ -1,0 +1,25 @@
+
+.todo-card{
+    .buttons{
+
+        display: flex;
+        gap: 1.5rem;
+        justify-content: space-between;
+
+        span{
+           
+            
+
+        cursor: pointer;
+
+        &:first-child{
+            color: navy;
+        }
+        &:last-child{
+            color: red;
+        }
+    }
+
+    }
+
+}
